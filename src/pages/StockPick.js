@@ -5,7 +5,7 @@ import { FaTrash } from 'react-icons/fa';
 import LineChartComponent from '../components/LineChartComponent'; // Import the line chart component
 
 function StockPick() {
-  const [stockInput, setStockInput] = useState('TSLA');
+  const [stockInput, setStockInput] = useState('');
   const [stockList, setStockList] = useState([]);
   const [selectedStock, setSelectedStock] = useState(null);
   const [error, setError] = useState(null);

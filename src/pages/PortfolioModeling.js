@@ -28,7 +28,7 @@ function PortfolioModeling() {
       case '/portfolio-modeling/performance':
         return <Performance />;
       case '/portfolio-modeling/spread-ratio-analysis':
-        return <SpreadRatioAnalysis />;
+        return <SpreadRatioAnalysis stockList={stockList} />;
       default:
         return <PortfolioNRBPref />;
     }
