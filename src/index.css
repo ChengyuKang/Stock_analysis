@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.sidebar-nav .nav-link {
+  color: #ffffff !important; /* Force white text for all links */
+  background-color: #6c757d; /* Default grey background */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.sidebar-nav .nav-link.active {
+  background-color: #343a40; /* Darker grey background when active */
+  color: #ffffff !important; /* Ensure active text is white */
+}
+
