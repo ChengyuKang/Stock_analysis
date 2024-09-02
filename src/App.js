@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Container, Row, Col, Navbar, Nav } from 'react-bootstrap';
 import { FaTachometerAlt, FaChartLine, FaCogs, FaChartPie } from 'react-icons/fa';
 import StockPick from './pages/StockPick';
+import PortfolioModeling from './pages/PortfolioModeling'; // Import the PortfolioModeling component
 
 function App() {
   return (
@@ -56,7 +57,7 @@ function App() {
             <Routes>
               <Route path="/stock-pick" element={<StockPick />} />
               <Route path="/dashboard" element={<div><h2>Dashboard</h2></div>} />
-              <Route path="/portfolio-modeling" element={<div><h2>Portfolio Modeling</h2></div>} />
+              <Route path="/portfolio-modeling" element={<PortfolioModeling />} />
               <Route path="/portfolio-volatility" element={<div><h2>Portfolio Volatility</h2></div>} />
               <Route path="/" element={<div><h2>Welcome to the Stock Analyzer</h2></div>} />
             </Routes>
